@@ -1,25 +1,337 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Петромакс</title>
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap&subset=cyrillic-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/fullpage.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  <div id="fullpage">
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
+  <header class="page-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <a href="" class="logo d-block mr-4"><img src="./img/petromax-logo.png" alt="petromax-logo"
+              class="logo__icon"></a>
+          <a href="" class="logo"><img src="./img/pirellii_logo.png" alt="pirellii_logo" class="logo__icon"></a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Каталог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Технологии</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Преимущества</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О компании</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <span class="page-header__phone ">
+            + 349 88 853 538
+          </span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="promo">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="promo__info">
+            <h1 class="title promo__title">
+              AEOLUS NEO – ГРУЗОВЫЕ ШИНЫ
+              НОВОГО ПОКОЛЕНИЯ!
+            </h1>
+            <span class="promo__subtitle">ПРЕМИАЛЬНОЕ КАЧЕСТВО ПО ДОСТУПНОЙ ЦЕНЕ!</span>
+            <div class="promo__descr">
+              <p>Узнайте, как реально сэкономить на шинах, получите скидку,
+                информацию по доставке в Ваш регион оставив заявку:</p>
+            </div>
+            <button class="button button--bd-black" data-toggle="modal" data-target="#order-call">заказать</button>
+          </div>
+        </div>
+      </div>
+      <div class="promo__bg"></div>
+    </div>
+  </div>
+
+  <div class="offer">
+    <div class="container">
+      <div class="row no-gutters justify-content-center align-items-center">
+        <div class="col-lg-5">
+          <div class="offer__img">
+            <img src="./img/premium-offer-1.jpg" alt="wheels">
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="offer__content">
+            <h2 class="title offer__title">ШИНЫ ПРЕМИУМ-КЛАССА ОТ 16 800 ₽!</h2>
+            <div class="offer__descr">
+              <p>Aeolus Neo – третье поколение шин AEOLUS и первый продукт,
+                произведенный после слияния с Pirelli Industry. Линейка шин NEO
+                является самым высокотехнологичным и высококачественным продуктом
+                компании AEOLUS. Выпуск шин налажен на заводе Aeolus Tyre Co в
+                китайском городе Цзяоцзо провинции Хэнань.
+              </p>
+              <p>Оставьте заявку и получите информацию о том, как шины AEOLUS NEO позволяют экономить ваш бюджет!</p>
+            </div>
+            <button class="button button--yellow" data-toggle="modal" data-target="#order-call">оставить заявку</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="catalogue">
+    <div class="container">
+      <h4 class="title catalogue__title">КАТАЛОГ ГРУЗОВЫХ ШИН</h4>
+      <div class="row justify-content-around">
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./img/wheel-1.png" alt="AEOLUS">
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-body">
+              <h5 class="title card__title">10.00 r20 aeolus hn06</h5>
+              <span class="card__size">Типоразмер: 10,00</span>
+              <span class="card__axis">Ось: Рулевая</span>
+              <span class="card__diameter">Посадочный диаметр: 20</span>
+              <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
+              <span class="card__price">16 800 Р</span>
+              <button href="#" class="button card__button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./img/wheel-1.png" alt="AEOLUS">
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-body">
+              <h5 class="title card__title">10.00 r20 aeolus hn06</h5>
+              <span class="card__size">Типоразмер: 10,00</span>
+              <span class="card__axis">Ось: Рулевая</span>
+              <span class="card__diameter">Посадочный диаметр: 20</span>
+              <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
+              <span class="card__price">16 800 Р</span>
+              <button href="#" class="button card__button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./img/wheel-1.png" alt="AEOLUS">
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-body">
+              <h5 class="title card__title">10.00 r20 aeolus hn06</h5>
+              <span class="card__size">Типоразмер: 10,00</span>
+              <span class="card__axis">Ось: Рулевая</span>
+              <span class="card__diameter">Посадочный диаметр: 20</span>
+              <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
+              <span class="card__price">16 800 Р</span>
+              <button href="#" class="button card__button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./img/wheel-1.png" alt="AEOLUS">
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-body">
+              <h5 class="title card__title">10.00 r20 aeolus hn06</h5>
+              <span class="card__size">Типоразмер: 10,00</span>
+              <span class="card__axis">Ось: Рулевая</span>
+              <span class="card__diameter">Посадочный диаметр: 20</span>
+              <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
+              <span class="card__price">16 800 Р</span>
+              <button href="#" class="button card__button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./img/wheel-1.png" alt="AEOLUS">
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-body">
+              <h5 class="title card__title">10.00 r20 aeolus hn06</h5>
+              <span class="card__size">Типоразмер: 10,00</span>
+              <span class="card__axis">Ось: Рулевая</span>
+              <span class="card__diameter">Посадочный диаметр: 20</span>
+              <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
+              <span class="card__price">16 800 Р</span>
+              <button href="#" class="button card__button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="./img/wheel-1.png" alt="AEOLUS">
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-body">
+              <h5 class="title card__title">10.00 r20 aeolus hn06</h5>
+              <span class="card__size">Типоразмер: 10,00</span>
+              <span class="card__axis">Ось: Рулевая</span>
+              <span class="card__diameter">Посадочный диаметр: 20</span>
+              <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
+              <span class="card__price">16 800 Р</span>
+              <button href="#" class="button card__button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="offer">
+    <div class="container">
+      <div class="row no-gutters justify-content-center align-items-center">
+        <div class="col-lg-6">
+          <div class="offer__img">
+            <img src="./img/premium-offer-2.jpg" alt="wheels">
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="offer__content">
+            <h2 class="title offer__title">ШИНЫ ПРЕМИУМ-КЛАССА ОТ 16 800 ₽!</h2>
+            <div class="offer__descr">
+              <p>Aeolus Neo – третье поколение шин AEOLUS и первый продукт,
+                произведенный после слияния с Pirelli Industry. Линейка шин NEO
+                является самым высокотехнологичным и высококачественным продуктом
+                компании AEOLUS. Выпуск шин налажен на заводе Aeolus Tyre Co в
+                китайском городе Цзяоцзо провинции Хэнань.
+              </p>
+              <p>Оставьте заявку и получите информацию о том, как шины AEOLUS NEO позволяют экономить ваш бюджет!</p>
+            </div>
+            <button class="button button--yellow" data-toggle="modal" data-target="#order-call">оставить заявку</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="advantages">
+    <div class="container">
+      <span class="title advantages__title">ПРЕИМУЩЕСТВА ШИН AEOLUS NEO</span>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="advantage">
+                <img class="advantage__icon" src="./img/wheel-icon-1.svg" alt="">
+                <div class="advantage__descr">
+                    <p>Улучшенное сцепление, отличное сопротивление износу благодаря
+                       новому дизайну протектора и инновационному составу резиновой смеси.</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="advantage">
+                    <img class="advantage__icon" src="./img/wheel-icon-3.svg" alt="">
+                    <div class="advantage__descr">
+                        <p>Двойной слой протектора, новая конструкция корда.</p>
+                      </div>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="advantage">
+                    <img class="advantage__icon" src="./img/wheel-icon-3.svg" alt="">
+                    <div class="advantage__descr">
+                        <p>Возможность трехкратного восстановления шины.</p>
+                      </div>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="advantage">
+                    <img class="advantage__icon" src="./img/wheel-icon-2.svg" alt="">
+                    <div class="advantage__descr">
+                        <p>Превосходная защита от застревания камней, прекрасное самоочищение.</p>
+                      </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- modal to order a call -->
+
+  <div class="modal fade" id="order-call" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">тест</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">тест</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">чек</label>
+            </div>
+            <button type="submit" class="btn btn-primary">отправить</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">закрыть модалку</button>
+          <button type="button" class="btn btn-primary">сохранить</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="./js/jquery-3.4.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/fullpage.min.js"></script>
   <script src="./js/script.js"></script>
 </body>
+
 </html>

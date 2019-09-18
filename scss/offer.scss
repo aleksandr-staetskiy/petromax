@@ -1,0 +1,22 @@
+.offer {
+  position: relative;
+  background: $brown;
+  padding-bottom: 35px;
+  color: $white;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    right: 0;
+    bottom: -40px;
+    background: $color-main;
+  }
+
+  &__content {
+    padding: 36px;
+    background: $gray;
+  }
+
+}

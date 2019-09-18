@@ -1,0 +1,49 @@
+$color: #e5b021;
+$transparent: rgba(0, 0, 0, 0);
+
+.promo {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 75px;
+  background: $brown;
+  overflow: hidden;
+
+  &__info {
+    margin-top: 35px;
+    position: relative;
+    padding: 55px 45px;
+    background: linear-gradient(-45deg,
+          $transparent 49.9%, 
+          $color 49.9%, $color 60%, 
+          $transparent 60%
+          ),
+        linear-gradient(-45deg,
+          $color 10%,
+          $transparent 10%
+          );
+    background-size: 10px 10px;
+    background-color: $color-main;
+    z-index: 3;
+  }
+
+  &__bg {
+    position: absolute;
+    width: 82%;
+    height: 85%;
+    right: 0;
+    top: 5%;
+    background: url(../img/foto.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  &__subtitle {
+    display: block;
+    margin: 32px 0px;
+  }
+
+  
+
+}

@@ -1,0 +1,28 @@
+.advantages {
+  padding-top: 100px;
+  background: $brown;
+
+  &__title {
+    display: block;
+    font-size: 1.8rem;
+    text-align: center;
+    color: $white;
+  }
+}
+
+.advantage {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $white;
+
+  &__icon {
+    width: 120px;
+    height: 120px;
+  }
+
+  &__descr {
+    margin-left: 15px;
+  }
+}

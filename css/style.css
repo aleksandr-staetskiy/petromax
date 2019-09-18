@@ -1,0 +1,153 @@
+html {
+  font-size: 16px; }
+
+body {
+  font-family: 'Didact Gothic', sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.nav-link {
+  font-size: 1.1rem !important;
+  color: #fff !important; }
+
+.title {
+  font-family: 'Open Sans', sans-serif; }
+
+.button {
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  padding: 8px;
+  color: black;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  .button:hover, .button:active {
+    background-color: #fff;
+    color: black; }
+  .button--yellow {
+    background: #fbc800; }
+  .button--bd-black {
+    border: 1px solid black; }
+
+.page-header {
+  padding-top: 15px;
+  display: block;
+  background: #2e2c29; }
+  .page-header__phone {
+    display: block;
+    color: #fbc800;
+    font-size: 1.1rem; }
+
+.promo {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 75px;
+  background: #2e2c29;
+  overflow: hidden; }
+  .promo__info {
+    margin-top: 35px;
+    position: relative;
+    padding: 55px 45px;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 49.9%, #e5b021 49.9%, #e5b021 60%, rgba(0, 0, 0, 0) 60%), linear-gradient(-45deg, #e5b021 10%, rgba(0, 0, 0, 0) 10%);
+    background-size: 10px 10px;
+    background-color: #fbc800;
+    z-index: 3; }
+  .promo__bg {
+    position: absolute;
+    width: 82%;
+    height: 85%;
+    right: 0;
+    top: 5%;
+    background: url(../img/foto.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1; }
+  .promo__subtitle {
+    display: block;
+    margin: 32px 0px; }
+
+.offer {
+  position: relative;
+  background: #2e2c29;
+  padding-bottom: 35px;
+  color: white; }
+  .offer::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    right: 0;
+    bottom: -40px;
+    background: #fbc800; }
+  .offer__content {
+    padding: 36px;
+    background: #5b595a; }
+
+.catalogue {
+  padding-top: 100px; }
+  .catalogue__title {
+    text-align: center; }
+
+.card {
+  padding: 1.2rem;
+  border: none; }
+  .card-body {
+    padding: 1rem; }
+  .card-divider {
+    height: 20px;
+    background: #fbc800; }
+  .card span {
+    display: block; }
+  .card-img-top {
+    padding: 10px;
+    padding-bottom: 0; }
+  .card__button {
+    margin-top: 20px;
+    background: #000;
+    color: white; }
+    .card__button:hover {
+      background: #fbc800; }
+  .card__title {
+    font-size: 1rem;
+    margin: 1.2rem 0rem;
+    text-transform: uppercase; }
+  .card__price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.6rem 0rem; }
+
+.advantages {
+  padding-top: 100px;
+  background: #2e2c29; }
+  .advantages__title {
+    display: block;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white; }
+
+.advantage {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white; }
+  .advantage__icon {
+    width: 120px;
+    height: 120px; }
+  .advantage__descr {
+    margin-left: 15px; }

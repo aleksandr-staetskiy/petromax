@@ -1,0 +1,42 @@
+.card {
+  padding: 1.2rem;
+  border: none;
+  &-body {
+    padding: 1rem;
+  }
+
+  &-divider {
+    height: 20px;
+    background: $color-main;
+  }
+
+  & span {
+    display: block;
+  }
+
+  &-img-top {
+    padding: 10px;
+    padding-bottom: 0;
+  }
+
+  &__button {
+    margin-top: 20px;
+    background: #000;
+    color: $white;
+    &:hover {
+      background: $color-main;
+    }
+  }
+
+  &__title {
+    font-size: 1rem;
+    margin: 1.2rem 0rem;
+    text-transform: uppercase;
+  }
+
+  &__price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.6rem 0rem;
+  }
+}

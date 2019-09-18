@@ -1,0 +1,27 @@
+.button {
+  cursor: pointer;
+    display: block;
+    width: 200px;
+    padding: 8px;
+    color: $black;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    transition: .3s ease;
+  &:hover,
+  &:active {
+    background-color: #fff;
+    color: $black;
+  }
+
+  &--yellow {
+    background: $color-main;
+  }
+
+  &--bd-black {
+    border: 1px solid $black;
+  }
+}
