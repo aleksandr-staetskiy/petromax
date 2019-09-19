@@ -1,0 +1,45 @@
+.about {
+  padding-top: 100px;
+  padding-bottom: 60px;
+
+  &__wrap {
+    background: $brown;
+    padding-bottom: 40px;
+  }
+  &__substrate {
+    height: 370px;
+    margin-top: 155px;
+    position: relative;
+    padding: 55px 45px;
+    background: linear-gradient(-45deg,
+          $transparent 49.9%, 
+          $color 49.9%, $color 60%, 
+          $transparent 60%
+          ),
+        linear-gradient(-45deg,
+          $color 10%,
+          $transparent 10%
+          );
+    background-size: 10px 10px;
+    background-color: $color-main;
+    z-index: 3;
+  }
+
+  &__date {
+    margin-top: 70px;
+  }
+
+  &__title {
+    color: $color-main;
+  }
+
+  &__descr {
+    color: $white;
+  }
+
+  @media (max-width: $screen-sm) {
+    &__date {
+      padding: 15px;
+    }
+  }
+}

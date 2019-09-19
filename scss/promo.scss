@@ -39,11 +39,33 @@ $transparent: rgba(0, 0, 0, 0);
     z-index: 1;
   }
 
-  &__subtitle {
-    display: block;
-    margin: 32px 0px;
+  &__title {
+    font-size: 2.2rem;
   }
 
-  
+  &__subtitle {
+    display: block;
+    margin: 28px 0px;
+    font-size: 1.1rem;
+  }
+
+  &__btn {
+    margin-top: 22px;
+  }
+
+  @media (max-width: $screen-sm) {
+    &__title {
+      font-size: 1.4rem;
+      line-height: 2.3rem;
+    }
+
+    &__subtitle {
+      font-size: 1.3rem;
+    }
+
+    &__bg {
+      display: none;
+    }
+  }
 
 }

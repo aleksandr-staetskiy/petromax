@@ -20,3 +20,22 @@ img {
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  color: #fff;
+  transition: .3s ease;
+  &:hover {
+    color: rgb(241, 240, 240);
+  }
+}
+
+@media (max-width: $screen-sm) {
+
+  .logo {
+    margin: 0!important;
+  }
+  .logo--hidden {
+    display: none;
+  }
+}
+
+// https://icon-library.net/images/white-hamburger-menu-icon/white-hamburger-menu-icon-15.jpg

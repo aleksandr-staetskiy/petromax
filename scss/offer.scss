@@ -15,8 +15,46 @@
   }
 
   &__content {
-    padding: 36px;
+    height: auto;
+    padding: 37px;
     background: $gray;
+  }
+
+  &--bg-gray {
+    background: $gray;
+  }
+
+  &--no-pseudo {
+    &::after {
+      content: '';
+      height: 0;
+      width: 0;
+    }
+  }
+
+  @media (max-width: $screen-sm) {
+    &__title {
+      font-size: 1.6rem;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 90%;
+      height: 0px;
+      right: 0;
+      bottom: 0;
+      background: $color-main;
+    }
+
+    &__content {
+      padding: 15px;
+    }
+
+    &__title {
+      padding-top: 35px;
+    }
+
   }
 
 }

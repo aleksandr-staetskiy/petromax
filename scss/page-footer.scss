@@ -1,0 +1,22 @@
+.page-footer {
+  padding-top: 15px;
+  margin-top: 50px;
+  background: $gray;
+  &__navigation {
+
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    &-item {
+      margin-left: 10px;
+    }
+    
+    &-link {
+      white-space: nowrap;
+    }
+  }
+
+}

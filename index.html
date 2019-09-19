@@ -15,11 +15,14 @@
 <body>
   <header class="page-header">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="" class="page-header__phone-icon">
+          <img src="./img/telephone_icon.png" alt="telephone">
+        </a>
         <a class="navbar-brand" href="#">
           <a href="" class="logo d-block mr-4"><img src="./img/petromax-logo.png" alt="petromax-logo"
               class="logo__icon"></a>
-          <a href="" class="logo"><img src="./img/pirellii_logo.png" alt="pirellii_logo" class="logo__icon"></a>
+          <a href="" class="logo logo--hidden"><img src="./img/pirellii_logo.png" alt="pirellii_logo" class="logo__icon"></a>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +31,19 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Каталог</a>
+              <a class="nav-link" href="#catalogue">Каталог</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Технологии</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Преимущества</a>
+              <a class="nav-link" href="#advantages">Преимущества</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">О компании</a>
+              <a class="nav-link" href="#about">О компании</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Контакты</a>
+              <a class="nav-link" href="#contacts">Контакты</a>
             </li>
           </ul>
           <span class="page-header__phone ">
@@ -64,7 +67,7 @@
               <p>Узнайте, как реально сэкономить на шинах, получите скидку,
                 информацию по доставке в Ваш регион оставив заявку:</p>
             </div>
-            <button class="button button--bd-black" data-toggle="modal" data-target="#order-call">заказать</button>
+            <button class="button button--bd-black promo__btn" data-toggle="modal" data-target="#order-call">заказать</button>
           </div>
         </div>
       </div>
@@ -74,7 +77,7 @@
 
   <div class="offer">
     <div class="container">
-      <div class="row no-gutters justify-content-center align-items-center">
+      <div class="row no-gutters justify-content-center">
         <div class="col-lg-5">
           <div class="offer__img">
             <img src="./img/premium-offer-1.jpg" alt="wheels">
@@ -99,7 +102,7 @@
     </div>
   </div>
 
-  <section class="catalogue">
+  <section class="catalogue" id="catalogue">
     <div class="container">
       <h4 class="title catalogue__title">КАТАЛОГ ГРУЗОВЫХ ШИН</h4>
       <div class="row justify-content-around">
@@ -116,8 +119,8 @@
               <span class="card__axis">Ось: Рулевая</span>
               <span class="card__diameter">Посадочный диаметр: 20</span>
               <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
-              <span class="card__price">16 800 Р</span>
-              <button href="#" class="button card__button">Подробнее</button>
+              <span class="title card__price">16 800 Р</span>
+              <button href="#" class="button card__button" data-toggle="modal" data-target="#wheel-info">Подробнее</button>
             </div>
           </div>
         </div>
@@ -134,8 +137,8 @@
               <span class="card__axis">Ось: Рулевая</span>
               <span class="card__diameter">Посадочный диаметр: 20</span>
               <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
-              <span class="card__price">16 800 Р</span>
-              <button href="#" class="button card__button">Подробнее</button>
+              <span class="title card__price">16 800 Р</span>
+              <button href="#" class="button card__button" data-toggle="modal" data-target="#wheel-info">Подробнее</button>
             </div>
           </div>
         </div>
@@ -152,8 +155,8 @@
               <span class="card__axis">Ось: Рулевая</span>
               <span class="card__diameter">Посадочный диаметр: 20</span>
               <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
-              <span class="card__price">16 800 Р</span>
-              <button href="#" class="button card__button">Подробнее</button>
+              <span class="title card__price">16 800 Р</span>
+              <button href="#" class="button card__button" data-toggle="modal" data-target="#wheel-info">Подробнее</button>
             </div>
           </div>
         </div>
@@ -170,8 +173,8 @@
               <span class="card__axis">Ось: Рулевая</span>
               <span class="card__diameter">Посадочный диаметр: 20</span>
               <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
-              <span class="card__price">16 800 Р</span>
-              <button href="#" class="button card__button">Подробнее</button>
+              <span class="title card__price">16 800 Р</span>
+              <button href="#" class="button card__button" data-toggle="modal" data-target="#wheel-info">Подробнее</button>
             </div>
           </div>
         </div>
@@ -188,8 +191,8 @@
               <span class="card__axis">Ось: Рулевая</span>
               <span class="card__diameter">Посадочный диаметр: 20</span>
               <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
-              <span class="card__price">16 800 Р</span>
-              <button href="#" class="button card__button">Подробнее</button>
+              <span class="title card__price">16 800 Р</span>
+              <button href="#" class="button card__button" data-toggle="modal" data-target="#wheel-info">Подробнее</button>
             </div>
           </div>
         </div>
@@ -206,8 +209,8 @@
               <span class="card__axis">Ось: Рулевая</span>
               <span class="card__diameter">Посадочный диаметр: 20</span>
               <span class="card__speed">Скорость/нагрузка: 146/143 L</span>
-              <span class="card__price">16 800 Р</span>
-              <button href="#" class="button card__button">Подробнее</button>
+              <span class="title card__price">16 800 Р</span>
+              <button href="#" class="button card__button" data-toggle="modal" data-target="#wheel-info">Подробнее</button>
             </div>
           </div>
         </div>
@@ -226,24 +229,30 @@
         </div>
         <div class="col-lg-5">
           <div class="offer__content">
-            <h2 class="title offer__title">ШИНЫ ПРЕМИУМ-КЛАССА ОТ 16 800 ₽!</h2>
+            <h2 class="title offer__title">ТЕХНОЛОГИЯ ПРОИЗВОДСТВА</h2>
             <div class="offer__descr">
-              <p>Aeolus Neo – третье поколение шин AEOLUS и первый продукт,
-                произведенный после слияния с Pirelli Industry. Линейка шин NEO
-                является самым высокотехнологичным и высококачественным продуктом
-                компании AEOLUS. Выпуск шин налажен на заводе Aeolus Tyre Co в
-                китайском городе Цзяоцзо провинции Хэнань.
+              <p>При изготовлении шин Aeolus Neo применяются уникальные технологии:</p>
+              <p> Производство Aeolus сертифицировано по стандартам ISO 9001 и ISO/TS 16949
+                 – это позволяет продукции компании соответствовать требованиям любой страны,
+                  в которую она поставляется. В производстве Aeolus Neo использованы новейшие 
+                  разработки завода – новый состав резиновой смеси, рисунки протектора, 3D 
+                  моделирование процессов. Инновационные технологии производства шин дают 
+                  возможность трехкратно восстанавливать рисунок протектора, экономить топливо, 
+                  обеспечивать сохранность шин при значительно больших нагрузках и пробеге,
+                   повысить безопасность на дороге при любых погодных условиях, даже самых агрессивных. </p>
+              <p>
+                  Стоимость шин AEOLUS NEO дешевле известных мировых брендов на 20-30% при практически 
+                  сопоставимом качестве, что дает основания относить Aeolus Neo к премиальному сегменту
+                   и ставить в один ряд с Bridgestone, Continentalи Pirelli.
               </p>
-              <p>Оставьте заявку и получите информацию о том, как шины AEOLUS NEO позволяют экономить ваш бюджет!</p>
             </div>
-            <button class="button button--yellow" data-toggle="modal" data-target="#order-call">оставить заявку</button>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="advantages">
+  <div class="advantages" id="advantages">
     <div class="container">
       <span class="title advantages__title">ПРЕИМУЩЕСТВА ШИН AEOLUS NEO</span>
       <div class="row justify-content-center">
@@ -253,34 +262,34 @@
               <div class="advantage">
                 <img class="advantage__icon" src="./img/wheel-icon-1.svg" alt="">
                 <div class="advantage__descr">
-                    <p>Улучшенное сцепление, отличное сопротивление износу благодаря
-                       новому дизайну протектора и инновационному составу резиновой смеси.</p>
-                  </div>
+                  <p>Улучшенное сцепление, отличное сопротивление износу благодаря
+                    новому дизайну протектора и инновационному составу резиновой смеси.</p>
+                </div>
               </div>
             </div>
             <div class="col-lg-6">
-                <div class="advantage">
-                    <img class="advantage__icon" src="./img/wheel-icon-3.svg" alt="">
-                    <div class="advantage__descr">
-                        <p>Двойной слой протектора, новая конструкция корда.</p>
-                      </div>
-                  </div>
+              <div class="advantage">
+                <img class="advantage__icon" src="./img/wheel-icon-3.svg" alt="">
+                <div class="advantage__descr">
+                  <p>Двойной слой протектора, новая конструкция корда.</p>
+                </div>
+              </div>
             </div>
             <div class="col-lg-6">
-                <div class="advantage">
-                    <img class="advantage__icon" src="./img/wheel-icon-3.svg" alt="">
-                    <div class="advantage__descr">
-                        <p>Возможность трехкратного восстановления шины.</p>
-                      </div>
-                  </div>
+              <div class="advantage">
+                <img class="advantage__icon" src="./img/wheel-icon-3.svg" alt="">
+                <div class="advantage__descr">
+                  <p>Возможность трехкратного восстановления шины.</p>
+                </div>
+              </div>
             </div>
             <div class="col-lg-6">
-                <div class="advantage">
-                    <img class="advantage__icon" src="./img/wheel-icon-2.svg" alt="">
-                    <div class="advantage__descr">
-                        <p>Превосходная защита от застревания камней, прекрасное самоочищение.</p>
-                      </div>
-                  </div>
+              <div class="advantage">
+                <img class="advantage__icon" src="./img/wheel-icon-2.svg" alt="">
+                <div class="advantage__descr">
+                  <p>Превосходная защита от застревания камней, прекрасное самоочищение.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -288,7 +297,169 @@
     </div>
   </div>
 
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__wrap">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="about__substrate">
+              <div class="about__video"></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="about__date">
+              <h5 class="title about__title">О ЗАВОДЕ AEOLUS</h5>
+              <div class="about__descr">
+                <p>Концерн «Aeolus» является одним из ведущих шинных брендов в мире, и новые
+                  шины AEOLUS NEO еще одно тому доказательство. Производство основано на
+                  идеальном балансе между научными исследованиями, дизайном и технологиями.
+                  Серия NEO производится в соответствии с последними технологическими разработками
+                  и соответствует строгим стандартам и предпочтениям европейских пользователей.
+                  Партнерство с Pirelli, внедрение конструкции корпуса SATT и оптимизация состава
+                  резиновых смесей позволило достичь увеличения пробега до 25%.</p>
+                <p>
+                  Предприятие располагаются в китайском городе Цзяоцзо провинции Хэнань.
+                  Основным акционером компании выступает концерн ChemChina, которому
+                  принадлежит контрольный пакет акций PirelliIndustry. На российском рынке
+                  продажи Aeolus стартовали с 2002 года, первым дилером продукции стала компания «Петромакс».
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <div class="offer offer--bg-gray offer--no-pseudo">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="offer__img">
+            <img src="./img/about-factory.jpg" alt="about factory">
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="offer__content">
+            <h2 class="title offer__title">О КОМПАНИИ ПЕТРОМАКС</h2>
+            <div class="offer__descr">
+              <p>ООО «Компания «Петромакс» - это организация, 
+                которая с 1997 года успешно развивается на рынке 
+                грузовых шин и дисков, а также шин для спецтехники.
+              </p>
+              <p>
+                  Мы работаем с заводом АЕОЛУС более 17 лет. За эти годы
+                  было заключено множество соглашений, проведены десятки
+                  акций, разработаны разнообразные стратегии продвижения
+                  шин на рынке. Все это позволило нам организовать уникальный
+                  склад грузовых шин, насчитывающий сотни наименований. 
+              </p>
+              <p>
+                  Наша миссия - обеспечение автовладельцев качественными 
+                  и безопасными шинами и дисками. Вы можете воспользоваться
+                  нашими услугами в Санкт-Петербурге, Москве и регионах России. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="call-to-action">
+        <div class="call-to-action__inner">
+          <p class="call-to-action__text">
+            Свяжитесь с нами прямо сейчас, и получите информацию о скидках,
+            гарантии, возможностях быстрой доставки шин "до дверей" и многое другое.
+          </p>
+          <button class="button button--bd-black mx-auto" data-toggle="modal" data-target="#order-call">оставить
+            заявку</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contacts" id="contacts">
+    <div class="container">
+      <div class="title contacts__title">КОНТАКТЫ</div>
+      <div class="row justify-content-around">
+        <div class="col-lg-7">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4168.962659842896!2d30.379328707078635!3d59.79852146706611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962451f3c51f29%3A0xe6f2a671b600dd37!2z0J_Rg9GI0LrQuNC90YHQutCw0Y8g0YPQuy4sIDI1INC60L7RgNC_0YPRgSAzLCDQqNGD0YjQsNGA0YssINCb0LXQvdC40L3Qs9GA0LDQtNGB0LrQsNGPLCAxOTY2MjY!5e0!3m2!1sru!2sru!4v1568896497186!5m2!1sru!2sru"
+            width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="col-lg-3">
+          <div class="contacts__date">
+            <span class="title contacts__date-title">АДРЕС ЦЕНТРАЛЬНОГО СКЛАДА В САНКТ-ПЕТЕРБУРГЕ:</span>
+            <span class="contacts__address">Санкт-Петербург, пос. Шушары, ул. Пушкинская, д. 25, корп. 4, стр.
+              1.</span>
+            <span class="contacts__number">8 800 123-45-67</span>
+            <span class="contacts__worktime">ЧАСЫ РАБОТЫ: <br>
+              Пн - Пт: 11-18 <br>
+              Сб - Вс: 12-17 <br>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="notifyer contacts__notifyer">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="notifyer__inner">
+              <div class="notifyer__icon">
+                <img src="./img/delivery-icon.png" alt="deliveru icon">
+              </div>
+              <div class="title notifyer__text">
+                <p>ОСУЩЕСТВЛЯЕТСЯ ДОСТАВКА ПО ВСЕЙ СТРАНЕ КАК СОБСТВЕННЫМ АВТОТРАНСПОРТОМ, ТАК И ЛЮБОЙ УДОБНОЙ ДЛЯ ВАС
+                  ТРАНСПОРТНОЙ КОМПАНИЕЙ!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--<footer class="page-footer">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-3">
+          <a href="http://cropmedia.ru/">cropmedia.ru, 2019</a>
+        </div>
+        <div class="col-lg-6">
+          <nav class="page-footer__nav" aria-label="Навигация тут">
+            <ul class="page-footer__list">
+              <li class="page-footer__list-item"><a href="" class="page-footer__list-link">Каталог</a></li>
+              <li class="page-footer__list-item"><a href="" class="page-footer__list-link">Технологии</a></li>
+              <li class="page-footer__list-item"><a href="" class="page-footer__list-link">Преимущества</a></li>
+              <li class="page-footer__list-item"><a href="" class="page-footer__list-link">О компании</a></li>
+              <li class="page-footer__list-item"><a href="" class="page-footer__list-link">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+
+  <!-- wheel popup info -->
+
+  <div class="modal fade" id="wheel-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Подробная информация</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            здесь должны выводиться данные из админки
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- modal to order a call -->
 
@@ -297,7 +468,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle">Тестовая форма</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -307,28 +478,28 @@
             <div class="form-group">
               <label for="exampleInputEmail1">тест</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                placeholder="имя">
+              <small id="emailHelp" class="form-text text-muted">инфа об ошибках</small>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">тест</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="мэйл">
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">чек</label>
             </div>
-            <button type="submit" class="btn btn-primary">отправить</button>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">закрыть модалку</button>
-          <button type="button" class="btn btn-primary">сохранить</button>
+          <button type="button" class="btn btn-primary">Отправить</button>
         </div>
       </div>
     </div>
   </div>
 
+    
   <script src="./js/jquery-3.4.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/script.js"></script>

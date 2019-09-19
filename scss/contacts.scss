@@ -1,0 +1,79 @@
+.contacts {
+  padding-top: 115px;
+
+  &__title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3.75rem;
+  }
+
+  & span {
+    display: block;
+    margin-bottom: 1.2em;
+  }
+
+  &__date {
+    color: #2e292b;
+  }
+
+  &__address {
+    &::before {
+      content: '';
+      position: absolute;
+      left: -25px;
+      width: 20px;
+      height: 30px;
+      background: url(../img/place-icon.png)no-repeat;
+    }
+  }
+
+  &__address {
+    &::before {
+      content: '';
+      position: absolute;
+      left: -25px;
+      width: 20px;
+      height: 30px;
+      background: url(../img/place-icon.png)no-repeat;
+    }
+  }
+
+  &__number {
+    &::before {
+      content: '';
+      position: absolute;
+      left: -22px;
+      width: 22px;
+      height: 30px;
+      background: url(../img/phone-call.png)no-repeat;
+    }
+  }
+  &__worktime {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: -45px;
+      top: 25px;
+      width: 30px;
+      height: 30px;
+      background: url(../img/clock-icon.png)no-repeat;
+    }
+  }
+
+  &__notifyer {
+    margin-top: 40px;
+  }
+
+  @media (max-width: $screen-sm) {
+    &__date {
+      font-size: 1.2rem;
+      text-align: center;
+
+      &-title {
+        font-size: 1.3rem;
+        margin-top: 25px;
+      }
+    }
+  }
+}

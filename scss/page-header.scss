@@ -8,4 +8,14 @@
     color: $color-main;
     font-size: 1.1rem;
   }
+
+  &__phone-icon {
+    display: none;
+  }
+
+  @media (max-width: $screen-sm) {
+    &__phone-icon {
+      display: block;
+    }
+  }
 }

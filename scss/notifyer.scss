@@ -1,0 +1,37 @@
+.notifyer {
+  padding: 15px;
+  background: $color-main;
+
+  &__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__img {
+    width: 127px;
+    height: 75px;
+  }
+
+  &__text {
+    font-size: 0.8rem;
+    padding-left: 25px;
+  }
+
+  @media (max-width: $screen-sm) {
+
+    & {
+      padding: 20px 5px;
+    }
+
+    &__inner {
+      display: block;
+      text-align: center;
+  }
+
+  &__text {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+}
