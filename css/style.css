@@ -73,7 +73,7 @@ a {
     position: relative;
     padding: 55px 45px;
     background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 49.9%, #e5b021 49.9%, #e5b021 60%, rgba(0, 0, 0, 0) 60%), linear-gradient(-45deg, #e5b021 10%, rgba(0, 0, 0, 0) 10%);
-    background-size: 10px 10px;
+    background-size: 7px 7px;
     background-color: #fbc800;
     z-index: 3; }
   .promo__bg {
@@ -239,12 +239,13 @@ a {
   position: relative;
   padding: 50px 205px;
   background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 49.9%, #e5b021 49.9%, #e5b021 60%, rgba(0, 0, 0, 0) 60%), linear-gradient(-45deg, #e5b021 10%, rgba(0, 0, 0, 0) 10%);
-  background-size: 10px 10px;
+  background-size: 7px 7px;
   background-color: #fbc800;
   z-index: 3; }
   .call-to-action__inner {
     text-align: center; }
   .call-to-action__text {
+    font-size: 1.1rem;
     color: black; }
   @media (max-width: 480px) {
     .call-to-action {
@@ -304,6 +305,7 @@ a {
 
 .notifyer {
   padding: 15px;
+  padding-top: 30px;
   background: #fbc800; }
   .notifyer__inner {
     display: -webkit-box;
