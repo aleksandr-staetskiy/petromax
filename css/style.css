@@ -45,7 +45,8 @@ a {
   .button--yellow {
     background: #fbc800; }
   .button--bd-black {
-    border: 1px solid black; }
+    font-weight: bold;
+    border: 2px solid black; }
 
 .page-header {
   padding-top: 15px;
