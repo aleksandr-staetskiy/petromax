@@ -11,3 +11,5 @@ $('a[href*="#"]').on('click', function(e) {
     'linear'
   )
 })
+
+AOS.init();
